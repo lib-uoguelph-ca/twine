@@ -40,7 +40,7 @@
 (set: $ending to 0)
 (set: $milk to 0)
 (set: $anges to 0)
-(set: $clothes to 0)</tw-passagedata><tw-passagedata pid="2" name="Search" tags="" position="598,179" size="100,100">*You live in a small two room cabin. There&#39;s a small kitchen in the foyer. The only other room is the bedroom, which consists of little more than a bed, cabinet and a writing desk.*
+(set: $clothes to 0)</tw-passagedata><tw-passagedata pid="2" name="Search" tags="" position="598,179" size="100,100">*You live in a small two room cabin. There&#39;s a small kitchen in the foyer. In only other room is the bedroom, which consists of little more than a bed, cabinet and a writing desk.*
 
 (if: $ending is 0)[I should search all of these areas. Can&#39;t risk leaving anything in the open that could point towards mistress&#39; true nature.]
 (elseif: $Kitchen is 1 and $Bedroom is 0 and $Desk is 0)[I&#39;m finished with the kitchen, but the bedroom and desk have their witchiness on full display.]
@@ -68,7 +68,7 @@
 
 (set: $Desk to 1)
 (set: $ending to $ending + 1)
-</tw-passagedata><tw-passagedata pid="5" name="Kitchen" tags="" position="275,142" size="100,100">In the corner is a modest kitchen in which Eloise prepares food, and the occasional potion or enchantment. There&#39;s a table full of provisions, including a bowl of milk that I haven&#39;t had a chance to drink in all the excitement so it has turned sour. A cauldron lies nearby and a broom leans against the wall.
+</tw-passagedata><tw-passagedata pid="5" name="Kitchen" tags="" position="275,142" size="100,100">In the corner is a modest kitchen in which Eloise prepares food, and the occasional potion or enchantment. There&#39;s a table full of provisions, including a bowl milk that I haven&#39;t had a chance to drink in all the excitement and has turned sour. A cauldron lies nearby and a broom leans against the wall.
 
 Any of these could potentially be used as evidence, but I only have time to hide one of them!
 
@@ -79,7 +79,7 @@ Any of these could potentially be used as evidence, but I only have time to hide
 [[Hide cauldron]]
 [[Hide Broom]]</tw-passagedata><tw-passagedata pid="6" name="Hide cauldron" tags="" position="78,76" size="100,100">Perhaps the caulderon could hint at Eloise&#39;s love for potion making? However, it&#39;s also just a cooking pot, not unusual to have around the house.
 
-[[Search]]</tw-passagedata><tw-passagedata pid="7" name="Hide Broom" tags="" position="68,186" size="100,100">Brooms have a strong association with witches, but they are also common items for everyday people to have around the house. Perhaps my time could have been better spent hiding something else.
+[[Search]]</tw-passagedata><tw-passagedata pid="7" name="Hide Broom" tags="" position="68,186" size="100,100">Brooms have a stong association with witches, but they are also common items for everyday people to have around the house. Perhaps my time could have been better spent hiding something else.
 
 [[Search]]</tw-passagedata><tw-passagedata pid="8" name="Tidy up" tags="" position="120,479" size="100,100">Although I was meant to be hiding evidence, the unkemptness of Eloise&#39;s bedroom is just too distracting and couldn&#39;t help myself from cleaning up. At least the investigators won&#39;t know how messy she is now.
 
@@ -95,11 +95,11 @@ Any of these could potentially be used as evidence, but I only have time to hide
 (set:$good to $good + 1)
 (set: $agnes to 1)
 
-[[Search]]</tw-passagedata><tw-passagedata pid="12" name="Burn calendar" tags="" position="892,590" size="100,100">I thought it might be prudent to hide the indicator of Eloise&#39;s age by burning the calendar. However most witches were either very young or very old.
+[[Search]]</tw-passagedata><tw-passagedata pid="12" name="Burn calendar" tags="" position="892,590" size="100,100">I thought it might be prudent to hide the indicator or Eloise&#39;s age by burning the calendar. However most witches were either very young or very old.
 
 [[Search]]</tw-passagedata><tw-passagedata pid="13" name="Spill Ink" tags="" position="979,321" size="100,100">The ink runs across the desk, making most of the papers unreadable. The letter from Agnes is the sole survivor.
 
-[[Search]]</tw-passagedata><tw-passagedata pid="14" name="Spill Spoiled Milk" tags="" position="62,295" size="100,100">It&#39;s such a shame for milk to go to waste, but spoiled milk is considered evidence of bad luck – something that followed witches around and implicated them.
+[[Search]]</tw-passagedata><tw-passagedata pid="14" name="Spill Spoiled Milk" tags="" position="62,295" size="100,100">It&#39;s such milk to go to waste, but spoiled milk is considered evidence of bad luck – something that followed witches around and implicated them.
 
 (set:$good to $good + 1)
 (set: $milk to 1)
