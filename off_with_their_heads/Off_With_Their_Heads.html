@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Off With Their Heads</title>
@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Off With Their Heads" startnode="1" creator="Twine" creator-version="2.2.1" ifid="6633150A-DA6C-4F0E-B40F-B20D1D603D7D" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">{
+<tw-storydata name="Off With Their Heads" startnode="1" creator="Twine" creator-version="2.3.16" ifid="6633150A-DA6C-4F0E-B40F-B20D1D603D7D" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">{
   background-color: #F0E5E5;
 }
 
@@ -22,12 +22,17 @@ body, tw-story
   font-family: **Times New Roman**;
 }
 
-tw-story[tags~="Parchment"] {
-background-image:url("http://www.baltana.com/files/wallpapers-4/Parchment-Background-High-Definition-Wallpaper-14481.jpg");
-background-size:cover;
+tw-story[tags~="Parchment"]::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image:url("http://www.baltana.com/files/wallpapers-4/Parchment-Background-High-Definition-Wallpaper-14481.jpg");
+  background-size:cover;
+  filter: saturate(0.4);
 }
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="Parchment" position="620,60.5" size="100,100">&quot;King Henry VIII,
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="Parchment" position="620,60" size="100,100">&quot;King Henry VIII,
 To six wives he was wedded,
 One died, one survived,
 Two divorced, two beheaded.&quot;
@@ -36,87 +41,87 @@ Which Queen are you?
 
 [[Start]] 
 
-&lt;img src= https://upload.wikimedia.org/wikipedia/commons/a/a9/Henry_VIII_Art_Gallery_of_Ontario.jpg&gt;
+&lt;img alt=&quot;King Henry VIII&quot; src= https://upload.wikimedia.org/wikipedia/commons/a/a9/Henry_VIII_Art_Gallery_of_Ontario.jpg&gt;
 
 *Used with information from &lt;a href=&quot;https://www.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt;. 
 
-</tw-passagedata><tw-passagedata pid="2" name="Start" tags="Parchment" position="621,207.5" size="100,100">Would you rather [[Die]], [[Survive]], [[Divorce]], or get [[Beheaded]]?</tw-passagedata><tw-passagedata pid="3" name="Die" tags="Parchment" position="195,333.5" size="100,100">Before you die, would you bed your husband? [[Yes]] or [[No]]?</tw-passagedata><tw-passagedata pid="4" name="Divorce" tags="Parchment" position="806,362.5" size="100,100">You start to worry that your husband, the King, is losing favour for you. 
+</tw-passagedata><tw-passagedata pid="2" name="Start" tags="Parchment" position="621,207" size="100,100">Would you rather [[Die]], [[Survive]], [[Divorce]], or get [[Beheaded]]?</tw-passagedata><tw-passagedata pid="3" name="Die" tags="Parchment" position="195,333" size="100,100">Before you die, would you bed your husband? [[Yes]] or [[No]]?</tw-passagedata><tw-passagedata pid="4" name="Divorce" tags="Parchment" position="806,362" size="100,100">You start to worry that your husband, the King, is losing favour for you. 
 
 Why you may ask?
 
 [[No matter what, I can&#39;t produce a male heir.]] 
 [[Am I ugly?]]
-Or, have I committed [[Adultery?]] </tw-passagedata><tw-passagedata pid="5" name="Yes" tags="Parchment" position="92,496.5" size="100,100">Do you hope to give your husband a traditional, male heir? 
+Or, have I committed [[Adultery?]] </tw-passagedata><tw-passagedata pid="5" name="Yes" tags="Parchment" position="92,496" size="100,100">Do you hope to give your husband a traditional, male heir? 
 
-[[Sure, I love boys.]] Or, [[I would prefer a daughter.]] </tw-passagedata><tw-passagedata pid="6" name="No" tags="Parchment" position="287,498.5" size="100,100">Congratulations! 
+[[Sure, I love boys.]] Or, [[I would prefer a daughter.]] </tw-passagedata><tw-passagedata pid="6" name="No" tags="Parchment" position="287,498" size="100,100">Congratulations! 
 
 You lived at least another year and did not die shortly after childbirth. 
 
 You managed to [[Survive]]. 
 
 Live a different life? 
-[[Start]] Again. </tw-passagedata><tw-passagedata pid="7" name="Survive" tags="Parchment" position="459,354.5" size="100,100">Would you prefer to outlive your spouse? 
+[[Start]] Again. </tw-passagedata><tw-passagedata pid="7" name="Survive" tags="Parchment" position="459,354" size="100,100">Would you prefer to outlive your spouse? 
 
-[[Yes, I would like to live as long as possible.]] Or, [[No, I cannot live without him.]] </tw-passagedata><tw-passagedata pid="8" name="Sure, I love boys." tags="Parchment" position="88,668.5" size="100,100">You are Jane Seymour. 
+[[Yes, I would like to live as long as possible.]] Or, [[No, I cannot live without him.]] </tw-passagedata><tw-passagedata pid="8" name="Sure, I love boys." tags="Parchment" position="88,668" size="100,100">You are Jane Seymour. 
 
 You provided a male heir for England, the future King Edward VI, but died shortly after childbirth. The King gave you a funeral fit for a Queen, a respect he showed no other. Sadly, Edward died around the age of 16, the last male Tudor King.  
 
-&lt;img src= https://upload.wikimedia.org/wikipedia/commons/b/bc/Jane_Seymour._Workshop_of_Hans_Holbein_the_Younger.jpg&gt;
+&lt;img alt=&quot;Jane Seymour&quot; src= https://upload.wikimedia.org/wikipedia/commons/b/bc/Jane_Seymour._Workshop_of_Hans_Holbein_the_Younger.jpg&gt;
 
 Live a different life? 
 [[Start]] Again. 
 
-</tw-passagedata><tw-passagedata pid="9" name="I would prefer a daughter." tags="Parchment" position="268,648.5" size="100,100">Sorry, but you ended up with a son anyways. 
+</tw-passagedata><tw-passagedata pid="9" name="I would prefer a daughter." tags="Parchment" position="268,648" size="100,100">Sorry, but you ended up with a son anyways. 
 
-[[Sure, I love boys.]] </tw-passagedata><tw-passagedata pid="10" name="Yes, I would like to live as long as possible." tags="Parchment" position="438,550.5" size="100,100">You are Catherine Parr. 
+[[Sure, I love boys.]] </tw-passagedata><tw-passagedata pid="10" name="Yes, I would like to live as long as possible." tags="Parchment" position="438,550" size="100,100">You are Catherine Parr. 
 
 You survived as your husband died a year before you. 
 
 You were influential in passing the Third Succession Act in 1543 which reinvoked Mary and Elizabeth&#39;s rights to the throne. While you had no heirs of your own, you paved the way for these two women to stay in line for succession - changing the course of history. 
 
-&lt;img src= https://upload.wikimedia.org/wikipedia/commons/c/c5/KatharinaParrPortrait.jpg&gt; 
+&lt;img alt=&quot;Catherine Parr&quot; src= https://upload.wikimedia.org/wikipedia/commons/c/c5/KatharinaParrPortrait.jpg&gt; 
 
 Live a different life? 
 [[Start]] Again. 
-</tw-passagedata><tw-passagedata pid="11" name="No, I cannot live without him." tags="Parchment" position="593,496.5" size="100,100">Sorry, but you did - for a year. 
+</tw-passagedata><tw-passagedata pid="11" name="No, I cannot live without him." tags="Parchment" position="593,496" size="100,100">Sorry, but you did - for a year. 
 
 Meanwhile, you made contributions to England&#39;s succession laws. 
 
-Learn more here: [[Yes, I would like to live as long as possible.]]</tw-passagedata><tw-passagedata pid="12" name="Beheaded" tags="Parchment" position="1023,306.5" size="100,100">Whispers are circulating the castle. Your alliegance to the King is being questioned. 
+Learn more here: [[Yes, I would like to live as long as possible.]]</tw-passagedata><tw-passagedata pid="12" name="Beheaded" tags="Parchment" position="1023,306" size="100,100">Whispers are circulating the castle. Your alliegance to the King is being questioned. 
 
-Is it [[Adultery?]] Or, [[A bitter husband looking for a way out?]]</tw-passagedata><tw-passagedata pid="13" name="No matter what, I can&#39;t produce a male heir." tags="Parchment" position="617,663.5" size="100,100">You are Catherine of Aragon. 
+Is it [[Adultery?]] Or, [[A bitter husband looking for a way out?]]</tw-passagedata><tw-passagedata pid="13" name="No matter what, I can&#39;t produce a male heir." tags="Parchment" position="617,663" size="100,100">You are Catherine of Aragon. 
 
 Despite being his first and longest marriage, you could not produce a male heir. However, you are the mother of Mary I of England, also known as Bloody Mary. She was the first female ruler in the Tudor era. 
 
 Catherine Parr helped to once again establish Mary&#39;s reign. 
 Click here for more information: [[Yes, I would like to live as long as possible.]] 
 
-&lt;img src= https://upload.wikimedia.org/wikipedia/commons/d/d6/Catherine_aragon.jpg&gt;
+&lt;img alt=&quot;Catherine of Aragon&quot; src= https://upload.wikimedia.org/wikipedia/commons/d/d6/Catherine_aragon.jpg&gt;
 
 Live a different life? 
 [[Start]] Again. 
-</tw-passagedata><tw-passagedata pid="14" name="Am I ugly?" tags="Parchment" position="804,540.5" size="100,100">[[Yes, he said, &quot;I liked her before not well, but now I like her much worse.&quot;]]
+</tw-passagedata><tw-passagedata pid="14" name="Am I ugly?" tags="Parchment" position="804,540" size="100,100">[[Yes, he said, &quot;I liked her before not well, but now I like her much worse.&quot;]]
 
-Of course not, but [[No matter what, I can&#39;t produce a male heir.]]</tw-passagedata><tw-passagedata pid="15" name="Yes, he said, &quot;I liked her before not well, but now I like her much worse.&quot;" tags="Parchment" position="808,700.5" size="100,100">You are Anne of Cleves. 
+Of course not, but [[No matter what, I can&#39;t produce a male heir.]]</tw-passagedata><tw-passagedata pid="15" name="Yes, he said, &quot;I liked her before not well, but now I like her much worse.&quot;" tags="Parchment" position="808,700" size="100,100">You are Anne of Cleves. 
 
 King Henry&#39;s already low interest in you worsened. He did not wish to consumate your marriage, despite his desire for producing a male heir. 
 
 Your marriage only lasted approximately six months as King Henry sought to annul the marriage. He wedded Catherine Howard only a few weeks later. Fortunately, you outlived all of Henry&#39;s other wives and escaped a more gruesome death. 
 
-&lt;img src= https://upload.wikimedia.org/wikipedia/commons/5/54/AnneCleves.jpg&gt; 
+&lt;img alt=&quot;Anne of Cleves&quot; src= https://upload.wikimedia.org/wikipedia/commons/5/54/AnneCleves.jpg&gt; 
 
 Live a different life? 
 [[Start]] Again. 
-</tw-passagedata><tw-passagedata pid="16" name="Adultery?" tags="Parchment" position="950,487.5" size="100,100">[[Were you actually involved in hanky panky outside of your marriage?]] Or, was it just [[A bitter husband looking for a way out?]]</tw-passagedata><tw-passagedata pid="17" name="A bitter husband looking for a way out?" tags="Parchment" position="1190,469.5" size="100,100">You are Anne Boleyn.
+</tw-passagedata><tw-passagedata pid="16" name="Adultery?" tags="Parchment" position="950,487" size="100,100">[[Were you actually involved in hanky panky outside of your marriage?]] Or, was it just [[A bitter husband looking for a way out?]]</tw-passagedata><tw-passagedata pid="17" name="A bitter husband looking for a way out?" tags="Parchment" position="1190,469" size="100,100">You are Anne Boleyn.
 
 You were the second wife of King Henry, but after three years he grew impatient with your inability to produce a male heir. However, you did provide him with the notorious future Queen, Elizabeth I - the last Tudor monarch. 
 
 In an attempt to end the marriage, King Henry circulated implicating rumours about you. These rumours led to your conviction of adultery and treason, and thus your ultimate demise. You were beheaded on May 19, 1536 at the Tower of London. 
 
-&lt;img src= https://upload.wikimedia.org/wikipedia/commons/0/0e/Anneboleyn2.jpg&gt;
+&lt;img alt=&quot;Anne Boleyn&quot; src= https://upload.wikimedia.org/wikipedia/commons/0/0e/Anneboleyn2.jpg&gt;
 
 Live a different life? 
-[[Start]] Again. </tw-passagedata><tw-passagedata pid="18" name="Were you actually involved in hanky panky outside of your marriage?" tags="Parchment" position="1067,619.5" size="100,100">You are Catherine Howard.
+[[Start]] Again. </tw-passagedata><tw-passagedata pid="18" name="Were you actually involved in hanky panky outside of your marriage?" tags="Parchment" position="1067,619" size="100,100">You are Catherine Howard.
 
 And yes, you were.  
 
@@ -126,7 +131,7 @@ FYI you were related - seventh cousins once removed. Yikes.
 
 You were convicted of adultery and beheaded at the Tower of London on February 13, 1542. It is rumoured that you stated &quot;I die a Queen, but I would rather have died the wife of Culpeper.&quot; Fierce. 
 
-&lt;img src= https://upload.wikimedia.org/wikipedia/commons/3/32/HowardCatherine02.jpeg&gt;
+&lt;img alt=&quot;Catherine Howard&quot; src= https://upload.wikimedia.org/wikipedia/commons/3/32/HowardCatherine02.jpeg&gt;
 
 Live a different life? 
 [[Start]] Again. </tw-passagedata></tw-storydata>
