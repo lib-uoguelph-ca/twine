@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -14,7 +14,21 @@
 
 tw-icon[title="Undo"], tw-icon[title="Redo"] {
     display: none;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="start" color="blue"></tw-tag><tw-passagedata pid="1" name="Untitled Passage" tags="start" position="800,350" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;=XXX=&quot;)[&lt;img src=&quot;https://static.wixstatic.com/media/c1a462_8523c92873c448598b92fc17b41a1648~mv2.png&quot; alt=&quot;Title photo&quot; /&gt;]
+}
+
+tw-passage[tags="start"] {
+  background-color: #000000AA;
+  padding: 1em;
+}
+
+.hidden {
+  position: absolute !important;
+  height: 1px; width: 1px; 
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="start" color="blue"></tw-tag><tw-passagedata pid="1" name="Untitled Passage" tags="start" position="800,350" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;=XXX=&quot;)[&lt;img src=&quot;https://static.wixstatic.com/media/c1a462_8523c92873c448598b92fc17b41a1648~mv2.png&quot; alt=&quot;W-BAUM&quot; /&gt;]
 
 Letter from the creator: 
 
@@ -76,12 +90,15 @@ Secretary: “ELIZA’s great.”
 
 
 [[You go back into the room and check the computer]]</tw-passagedata><tw-passagedata pid="6" name="She sits down and you both look at the monitor." tags="" position="800,850" size="100,100">//WELCOME TO//
+<figure>
+  [EEEEEE](text-colour:transparent)[QQQ]LL(text-colour:transparent)[LLLL](text-colour:transparent)[QQQ]IIII(text-colour:transparent)[QQQ]ZZZZZZZ(text-colour:transparent)[QQQ](text-colour:transparent)[A]AAAAA(text-colour:transparent)[A]
+  EE(text-colour:transparent)[EEEE](text-colour:transparent)[QQQ]LL(text-colour:transparent)[LLLL](text-colour:transparent)[QQQ](text-colour:transparent)[I]II(text-colour:transparent)[I](text-colour:transparent)[QQQ](text-colour:transparent)[ZZZZ]ZZ(text-colour:transparent)[Z](text-colour:transparent)[QQQ]AA(text-colour:transparent)[AAA]AA
+  EEEEE(text-colour:transparent)[E](text-colour:transparent)[QQQ]LL(text-colour:transparent)[LLLL](text-colour:transparent)[QQQ](text-colour:transparent)[I]II(text-colour:transparent)[I](text-colour:transparent)[QQQ](text-colour:transparent)[ZZ]ZZZ(text-colour:transparent)[ZZ](text-colour:transparent)[QQQ]AAAAAAA
+  EE(text-colour:transparent)[EEEE](text-colour:transparent)[QQQ]LL(text-colour:transparent)[LLLL](text-colour:transparent)[QQQ](text-colour:transparent)[I]II(text-colour:transparent)[I](text-colour:transparent)[QQQ](text-colour:transparent)[Z]ZZ(text-colour:transparent)[ZZZZ](text-colour:transparent)[QQQ]AA(text-colour:transparent)[AAA]AA
+  EEEEEE(text-colour:transparent)[QQQ]LLLLLL(text-colour:transparent)[QQQ]IIII(text-colour:transparent)[QQQ]ZZZZZZZ(text-colour:transparent)[QQQ]AA(text-colour:transparent)[AAA]AA
+<figcaption class="hidden">Eliza</figcaption>
+</figure>
 
-[EEEEEE](text-colour:transparent)[QQQ]LL(text-colour:transparent)[LLLL](text-colour:transparent)[QQQ]IIII(text-colour:transparent)[QQQ]ZZZZZZZ(text-colour:transparent)[QQQ](text-colour:transparent)[A]AAAAA(text-colour:transparent)[A]
-EE(text-colour:transparent)[EEEE](text-colour:transparent)[QQQ]LL(text-colour:transparent)[LLLL](text-colour:transparent)[QQQ](text-colour:transparent)[I]II(text-colour:transparent)[I](text-colour:transparent)[QQQ](text-colour:transparent)[ZZZZ]ZZ(text-colour:transparent)[Z](text-colour:transparent)[QQQ]AA(text-colour:transparent)[AAA]AA
-EEEEE(text-colour:transparent)[E](text-colour:transparent)[QQQ]LL(text-colour:transparent)[LLLL](text-colour:transparent)[QQQ](text-colour:transparent)[I]II(text-colour:transparent)[I](text-colour:transparent)[QQQ](text-colour:transparent)[ZZ]ZZZ(text-colour:transparent)[ZZ](text-colour:transparent)[QQQ]AAAAAAA
-EE(text-colour:transparent)[EEEE](text-colour:transparent)[QQQ]LL(text-colour:transparent)[LLLL](text-colour:transparent)[QQQ](text-colour:transparent)[I]II(text-colour:transparent)[I](text-colour:transparent)[QQQ](text-colour:transparent)[Z]ZZ(text-colour:transparent)[ZZZZ](text-colour:transparent)[QQQ]AA(text-colour:transparent)[AAA]AA
-EEEEEE(text-colour:transparent)[QQQ]LLLLLL(text-colour:transparent)[QQQ]IIII(text-colour:transparent)[QQQ]ZZZZZZZ(text-colour:transparent)[QQQ]AA(text-colour:transparent)[AAA]AA
 
 
 //I AM YOUR PSYCHOTHERAPIST. PLEASE WRITE IN ALL CAPS.//
@@ -190,7 +207,7 @@ UGh! What should I do?! Programs like ELIZA will be dangerous if they develop, b
 [[Abort ELIZA’s development]]		
 
 
-(text-colour:transparent)[AAAA][[Abort ELIZA’s development and advocate against programs like it]]			
+(text-colour:transparent)[&nbsp;&nbsp;&nbsp;&nbsp;][[Abort ELIZA’s development and advocate against programs like it]]			
 
 
 [[Continue to develop ELIZA morally]] 
